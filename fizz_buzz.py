@@ -14,3 +14,9 @@ print("called with {}, result is  {}".format( n_1, fizz_buzz(n_1) ))
 print("called with {}, result is  {}".format( n_2, fizz_buzz(n_2) ))
 print("called with {}, result is  {}".format( n_3, fizz_buzz(n_3) ))
 
+for n in range(11)[1:]: 
+	result = fizz_buzz(n) 
+	print (result)
+ 
+
+
