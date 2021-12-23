@@ -7,6 +7,8 @@ def fizz_buzz(n):
 	elif n % 3 == 0: 
 		return "fizz!"
 
+	return ""
+
 n_1 = 25
 n_2 = 6
 n_3 = 15
@@ -18,5 +20,7 @@ for n in range(11)[1:]:
 	result = fizz_buzz(n) 
 	print (result)
  
+result = [fizz_buzz(n) for n in range(11)[1:]]
+print(result)
 
-
+print("\n".join(result))
